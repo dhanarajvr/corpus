@@ -10,7 +10,7 @@ __date__ = "08 December 2016"
 
 stop = [line.rstrip('\n') for line in open('stopwords.txt')]
 from nltk.stem.porter import *
-#oho
+#ohooo
 stemmer = PorterStemmer()
 
 def csv2json(input_file):
